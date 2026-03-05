@@ -13,9 +13,9 @@
                 extend: {
                     colors: {
                         brand: {
-                            dark: '#0f172a',    // Slate 900
-                            card: '#1e293b',    // Slate 800
-                            accent: '#f59e0b',  // Amber 500 (Gold feel)
+                            dark: '#0f172a',    
+                            card: '#1e293b',    
+                            accent: '#f59e0b',  
                             accentHover: '#d97706',
                         }
                     }
@@ -37,21 +37,16 @@
     <header class="relative px-6 py-20 md:py-28 lg:px-8 flex flex-col items-center text-center border-b border-slate-800">
         <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-800 via-brand-dark to-brand-dark"></div>
         
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-4xl mx-auto z-10">
             <span class="text-brand-accent font-semibold tracking-widest uppercase text-xs md:text-sm mb-6 block">Exclusivo para Empreendedores Digitais e Investidores</span>
             
-            <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-8 leading-tight">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-8 leading-tight">
                 Descubra as Falhas Ocultas que Podem Travar Seus Ativos Digitais em Batalhas Judiciais Intermináveis
             </h1>
             
-            <div class="relative w-full max-w-3xl mx-auto aspect-video bg-black rounded-xl shadow-2xl border border-slate-700 overflow-hidden mb-10 group cursor-pointer">
-                <div class="absolute inset-0 bg-slate-800 flex flex-col items-center justify-center bg-[url('https://images.unsplash.com/photo-1639762681485-074b7f4ec651?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center bg-blend-overlay">
-                    <div class="w-20 h-20 bg-brand-accent rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-[0_0_30px_rgba(245,158,11,0.5)]">
-                        <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                    </div>
-                    <p class="mt-4 text-white font-medium drop-shadow-md">Assista ao Vídeo Completo</p>
-                </div>
-            </div>
+            <p class="text-lg md:text-xl text-slate-400 mb-12 max-w-2xl mx-auto">
+                O modelo tradicional de inventário não foi feito para a era da internet. Faça uma auditoria rápida de 1 minuto e descubra o nível de risco do seu patrimônio online.
+            </p>
 
             <button onclick="openQuiz()" class="inline-block bg-brand-accent hover:bg-brand-accentHover text-white font-bold py-5 px-8 md:px-12 rounded-lg shadow-[0_0_20px_rgba(245,158,11,0.3)] transition-all duration-300 transform hover:-translate-y-1 text-lg w-full md:w-auto">
                 Iniciar Auditoria de Risco do Meu Patrimônio Digital
@@ -78,23 +73,17 @@
             <h2 class="text-3xl font-bold text-white text-center mb-12">O preço do silêncio: Quando o patrimônio evapora</h2>
             
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="glass-card p-8 rounded-xl border border-slate-700">
+                <div class="glass-card p-8 rounded-xl border border-slate-700 hover:border-brand-accent transition-colors">
                     <h3 class="text-xl font-bold text-red-400 mb-4">A Armadilha Criptográfica</h3>
                     <p class="text-slate-300 text-sm leading-relaxed mb-4">
-                        Um investidor faleceu abruptamente deixando mais de US$ 200 milhões em criptomoedas. Seu testamento desatualizado ignorava os ativos digitais.
-                    </p>
-                    <p class="text-slate-300 text-sm leading-relaxed">
-                        As chaves estavam fragmentadas. Durante o lento processo de inventário tradicional, as restrições da corretora e a volatilidade do mercado corroeram o patrimônio. <strong>O espólio perdeu mais de dois terços do seu valor original simplesmente por falta de arquitetura jurídica preventiva.</strong>
+                        A criptografia da blockchain não obedece a ordens judiciais. Sem um Testamento Digital prevendo o repasse de *Seed Phrases*, seus fundos se tornam inacessíveis para sempre em caso de um imprevisto. A ausência de arquitetura jurídica corrói o patrimônio.
                     </p>
                 </div>
                 
-                <div class="glass-card p-8 rounded-xl border border-slate-700">
+                <div class="glass-card p-8 rounded-xl border border-slate-700 hover:border-brand-accent transition-colors">
                     <h3 class="text-xl font-bold text-red-400 mb-4">O Bloqueio das Big Techs</h3>
                     <p class="text-slate-300 text-sm leading-relaxed mb-4">
-                        Contas de monetização no Google AdSense e royalties na Amazon KDP não reconhecem herdeiros automaticamente.
-                    </p>
-                    <p class="text-slate-300 text-sm leading-relaxed">
-                        Sem um plano de sucessão ou co-titularidade estabelecido em vida, a conta é congelada e os pagamentos retornam. A família perde a fonte de renda imediata e é forçada a travar uma batalha judicial internacional que pode levar anos, enquanto o dinheiro fica retido nos servidores da Califórnia.
+                        Contas de monetização no AdSense ou royalties na Amazon não reconhecem herdeiros automaticamente. Sem diretrizes sucessórias em vida, as contas são congeladas e a família enfrenta anos de litígio internacional com o dinheiro retido.
                     </p>
                 </div>
             </div>
@@ -104,23 +93,23 @@
     <section class="py-24 px-6 lg:px-8 bg-brand-card">
         <div class="max-w-5xl mx-auto">
             <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-4">A Blindagem de Legado Digital</h2>
-            <p class="text-center text-slate-400 mb-16 max-w-2xl mx-auto text-lg">Nossa metodologia em 3 passos garante que o trabalho de uma vida chegue aos seus sucessores com validade jurídica e zero intervenção não autorizada.</p>
+            <p class="text-center text-slate-400 mb-16 max-w-2xl mx-auto text-lg">Nossa metodologia em 3 passos garante que o trabalho de uma vida chegue aos seus sucessores com validade jurídica e privacidade absoluta.</p>
             
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="bg-brand-dark p-8 rounded-xl border border-slate-700 hover:border-brand-accent transition-colors duration-300 group">
                     <div class="text-brand-accent text-5xl font-black mb-6 opacity-50 group-hover:opacity-100 transition-opacity">01</div>
                     <h3 class="text-xl font-bold text-white mb-3">Mapeamento Seguro</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Fazemos um raio-x das rotas do seu dinheiro, enquadrando contas monetizadas, corretoras e carteiras. <strong>Nunca pedimos suas senhas.</strong> Identificamos apenas as naturezas jurídicas dos ativos.</p>
+                    <p class="text-slate-400 text-sm leading-relaxed">Fazemos um raio-x das rotas do seu dinheiro. <strong>Nunca pedimos suas senhas.</strong> Identificamos apenas as naturezas jurídicas dos ativos para desenhar a blindagem.</p>
                 </div>
                 <div class="bg-brand-dark p-8 rounded-xl border border-slate-700 hover:border-brand-accent transition-colors duration-300 group">
                     <div class="text-brand-accent text-5xl font-black mb-6 opacity-50 group-hover:opacity-100 transition-opacity">02</div>
                     <h3 class="text-xl font-bold text-white mb-3">Arquitetura Jurídica</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Elaboração cirúrgica de Testamentos Digitais, constituição de Holdings (quando aplicável) e diretivas que forçam exchanges e Big Techs a respeitarem a sua sucessão, burlando a burocracia comum.</p>
+                    <p class="text-slate-400 text-sm leading-relaxed">Elaboração cirúrgica de Testamentos Digitais e diretivas que forçam exchanges e Big Techs a respeitarem a sua sucessão, burlando a burocracia do inventário comum.</p>
                 </div>
                 <div class="bg-brand-dark p-8 rounded-xl border border-slate-700 hover:border-brand-accent transition-colors duration-300 group">
                     <div class="text-brand-accent text-5xl font-black mb-6 opacity-50 group-hover:opacity-100 transition-opacity">03</div>
                     <h3 class="text-xl font-bold text-white mb-3">O Cofre Criptografado</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Assessoria na configuração de gerenciadores com "Acesso de Emergência" (Dead Man's Switch). O advogado guarda a diretriz legal homologada; a sua família, e apenas ela, terá a chave de desencriptação.</p>
+                    <p class="text-slate-400 text-sm leading-relaxed">Assessoria na configuração de gerenciadores com acesso de emergência. O advogado guarda o mapa legal; a sua família, e apenas ela, terá a chave de acesso.</p>
                 </div>
             </div>
         </div>
@@ -130,7 +119,7 @@
         <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
             <div class="w-full md:w-5/12 flex justify-center">
                 <div class="relative w-64 h-80 md:w-full md:h-96 rounded-xl overflow-hidden border border-slate-700 shadow-2xl">
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=600&auto=format&fit=crop" alt="Dr. Reginaldo Oliveira" class="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700">
+                    <img src="https://via.placeholder.com/600x800/0f172a/f59e0b?text=Dr.+Reginaldo" alt="Dr. Reginaldo Oliveira" class="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700">
                     <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-4">
                         <p class="text-brand-accent font-bold">OAB/SC 57.879</p>
                     </div>
@@ -140,16 +129,11 @@
                 <h2 class="text-3xl font-bold text-white mb-2">Dr. Reginaldo Oliveira</h2>
                 <h3 class="text-lg text-brand-accent mb-6 font-medium">Especialista em Sucessão de Ativos Tecnológicos</h3>
                 <p class="text-slate-300 mb-6 leading-relaxed">
-                    A advocacia tradicional não compreende a diferença entre uma Cold Wallet e uma conta AdSense. O inventário comum não foi desenhado para a hipervelocidade da internet.
+                    A advocacia tradicional não compreende a diferença entre uma *Cold Wallet* e uma conta do *AdSense*. O inventário comum não foi desenhado para a velocidade da internet.
                 </p>
                 <p class="text-slate-300 mb-6 leading-relaxed">
-                    Atuo de forma cirúrgica, confidencial e 100% digital, atendendo empreendedores, investidores e criadores de conteúdo que faturam múltiplos dígitos e não podem se dar ao luxo de deixar o trabalho de uma vida nas mãos da sorte.
+                    Atuo de forma confidencial e 100% digital, atendendo empreendedores, criadores e investidores que não podem se dar ao luxo de deixar o trabalho de uma vida nas mãos da sorte.
                 </p>
-                <ul class="space-y-3 text-sm text-slate-400 mb-8">
-                    <li class="flex items-center"><svg class="w-5 h-5 text-brand-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Atendimento Exclusivo e Sigiloso</li>
-                    <li class="flex items-center"><svg class="w-5 h-5 text-brand-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Expertise em Contratos Smart e Custódia</li>
-                    <li class="flex items-center"><svg class="w-5 h-5 text-brand-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Prevenção de Litígios Intergeracionais</li>
-                </ul>
             </div>
         </div>
     </section>
@@ -158,7 +142,7 @@
         <div class="bg-brand-card w-full max-w-2xl rounded-2xl border border-slate-700 shadow-2xl overflow-hidden transform scale-95 transition-transform duration-300" id="quizContainer">
             
             <div class="w-full bg-slate-800 h-2">
-                <div id="quizProgress" class="bg-brand-accent h-2 w-1/4 transition-all duration-500"></div>
+                <div id="quizProgress" class="bg-brand-accent h-2 w-0 transition-all duration-500"></div>
             </div>
 
             <div class="p-8 md:p-10 relative">
@@ -174,23 +158,40 @@
 
     <footer class="py-8 bg-[#0b1120] text-center border-t border-slate-800 text-slate-500 text-xs px-6">
         <p>&copy; 2026 Reginaldo Oliveira Advocacia Digital. Todos os direitos reservados. OAB/SC 57.879.</p>
-        <p class="mt-2">Este site não faz parte do Facebook ou Google. A proteção de dados segue estritamente as normativas da LGPD e do Provimento 205/2021 da OAB.</p>
+        <p class="mt-2">A proteção de dados segue estritamente as normativas da LGPD e o sigilo profissional da OAB.</p>
     </footer>
 
     <script>
-        const quizData =
+        // Substitua pelo seu número real (DDI + DDD + Número)
+        const WHATSAPP_NUMBER = "5500000000000";
+
+        const quizData = [
+            {
+                question: "Qual é a composição principal do seu patrimônio digital hoje?",
+                options: [
+                    { text: "Criptomoedas (Binance, Ledger, etc)", score: 5 },
+                    { text: "Negócios Online (AdSense, Hotmart, Royalties)", score: 4 },
+                    { text: "Misto (Cripto + Negócios Web)", score: 5 },
+                    { text: "Apenas contas de Redes Sociais comuns", score: 1 }
+                ]
             },
             {
-                question: "Como suas chaves privadas ou acessos Master estão armazenados hoje?",
-                options:
+                question: "Como suas chaves de acesso ou 'Seed Phrases' estão armazenadas hoje?",
+                options: [
+                    { text: "Anotadas em papel ou memória própria", score: 5 },
+                    { text: "Em um bloco de notas ou arquivo não criptografado", score: 4 },
+                    { text: "Em um cofre digital, mas sem diretrizes de repasse", score: 3 },
+                    { text: "Já possuo um Testamento Digital homologado", score: 0 }
+                ]
             },
             {
-                question: "Qual o valor estimado atual do portfólio digital que deseja proteger?",
-                options:
-            },
-            {
-                question: "Alguém da sua inteira confiança possui o mapa exato e o conhecimento técnico para liquidar esses ativos se você faltar amanhã?",
-                options:
+                question: "Qual o valor estimado atual do portfólio que deseja proteger?",
+                options: [
+                    { text: "Acima de R$ 500.000,00", score: 5 },
+                    { text: "Entre R$ 100.000,00 e R$ 500.000,00", score: 3 },
+                    { text: "Até R$ 100.000,00", score: 2 },
+                    { text: "Ainda estou construindo (menos de R$ 10.000)", score: 1 }
+                ]
             }
         ];
 
@@ -207,7 +208,6 @@
             totalScore = 0;
             overlay.classList.remove('hidden');
             overlay.classList.add('flex');
-            // Pequeno delay para a animação de opacidade funcionar
             setTimeout(() => {
                 overlay.classList.remove('opacity-0');
                 container.classList.remove('scale-95');
@@ -236,11 +236,11 @@
         }
 
         function renderQuestion() {
-            const q = quizData;
+            const q = quizData[currentStep];
             progress.style.width = `${((currentStep) / quizData.length) * 100}%`;
             
             let html = `
-                <p class="text-brand-accent font-semibold text-sm mb-2">Pergunta ${currentStep + 1} de ${quizData.length}</p>
+                <p class="text-brand-accent font-semibold text-sm mb-2">Auditoria: Etapa ${currentStep + 1} de ${quizData.length}</p>
                 <h3 class="text-2xl font-bold text-white mb-6 leading-tight">${q.question}</h3>
                 <div class="space-y-3">
             `;
@@ -259,50 +259,53 @@
 
         function renderResult() {
             progress.style.width = '100%';
-            
             let html = ``;
+            let wppMsg = "";
             
-            // Lógica de Triagem e Direcionamento High-Ticket
-            if (totalScore >= 12) {
-                // Rota A (Tier 1 Premium - Atendimento VIP)
+            if (totalScore >= 11) {
+                // Tier 1: Alto Valor (Risco Crítico)
+                wppMsg = encodeURIComponent("Olá, Dr. Reginaldo. Finalizei a auditoria patrimonial e meu nível de risco foi classificado como Alto/Crítico. Gostaria de agendar a Sessão de Diagnóstico de Legado Digital.");
+                
                 html = `
                     <div class="text-center">
                         <div class="w-16 h-16 bg-red-500/20 text-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                         </div>
-                        <h3 class="text-2xl font-bold text-white mb-2">Risco Crítico Detectado</h3>
-                        <p class="text-slate-400 mb-8">O volume do seu patrimônio exige uma arquitetura jurídica imediata (como a constituição de estruturas de Holding). Seu caso qualificou para uma Sessão Estratégica Confidencial diretamente com o Dr. Reginaldo.</p>
-                        <a href="https://wa.me/5571983008001?text=Ol%C3%A1.%20Finalizei%20a%20auditoria%20e%20fui%20classificado%20como%20Risco%20Cr%C3%ADtico%20(Tier%201).%20Gostaria%20de%20agendar%20a%20sess%C3%A3o%20direta%20com%20o%20Dr.%20Reginaldo." target="_blank" class="block w-full bg-brand-accent hover:bg-brand-accentHover text-white font-bold py-4 rounded-lg text-lg transition-colors shadow-lg shadow-brand-accent/30">
-                            Agendar Sessão VIP via WhatsApp
+                        <h3 class="text-2xl font-bold text-white mb-2">Risco Patrimonial Crítico</h3>
+                        <p class="text-slate-400 mb-8">Pelo volume reportado, a ausência de diretrizes sucessórias coloca seus ativos em risco imediato de perda por bloqueio de plataformas. Seu caso qualifica para uma Sessão Diagnóstica Confidencial.</p>
+                        <a href="https://wa.me/${WHATSAPP_NUMBER}?text=${wppMsg}" target="_blank" class="block w-full bg-brand-accent hover:bg-brand-accentHover text-white font-bold py-4 rounded-lg text-lg transition-colors shadow-lg shadow-brand-accent/30">
+                            Agendar Sessão de Proteção
                         </a>
                     </div>
                 `;
-            } else if (totalScore >= 5) {
-                // Rota B (Tier 2 Qualificado - Atendimento Padrão)
+            } else if (totalScore >= 6) {
+                // Tier 2: Valor Médio
+                wppMsg = encodeURIComponent("Olá, Dr. Reginaldo. Fiz a auditoria e detectei vulnerabilidades no meu patrimônio digital. Gostaria de entender mais sobre o Planejamento de Legado Digital.");
+                
                 html = `
                     <div class="text-center">
                         <div class="w-16 h-16 bg-brand-accent/20 text-brand-accent rounded-full flex items-center justify-center mx-auto mb-4">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
-                        <h3 class="text-2xl font-bold text-white mb-2">Atenção: Risco Moderado a Grave</h3>
-                        <p class="text-slate-400 mb-8">O seu patrimônio digital está vulnerável a bloqueios por ausência de diretrizes sucessórias. Agende uma conversa com nossa equipe jurídica para mapear os próximos passos da blindagem.</p>
-                        <a href="https://wa.me/5571983008001?text=Ol%C3%A1.%20Fiz%20a%20auditoria%20e%20gostaria%20de%20falar%20com%20um%20especialista%20sobre%20a%20blindagem%20dos%20meus%20ativos." target="_blank" class="block w-full bg-brand-card border border-brand-accent text-brand-accent hover:bg-brand-accent hover:text-white font-bold py-4 rounded-lg text-lg transition-colors">
-                            Falar com a Equipe Jurídica
+                        <h3 class="text-2xl font-bold text-white mb-2">Atenção: Risco Moderado</h3>
+                        <p class="text-slate-400 mb-8">Seus ativos digitais e senhas encontram-se expostos a bloqueios. É recomendado iniciar uma arquitetura jurídica preventiva.</p>
+                        <a href="https://wa.me/${WHATSAPP_NUMBER}?text=${wppMsg}" target="_blank" class="block w-full bg-brand-card border border-brand-accent text-brand-accent hover:bg-brand-accent hover:text-white font-bold py-4 rounded-lg text-lg transition-colors">
+                            Falar com o Dr. Reginaldo
                         </a>
                     </div>
                 `;
             } else {
-                // Rota C (Tier 3 Downsell - Para leads fora do perfil de cliente ideal)
+                // Tier 3: Baixo Valor (Filtro Elegante)
                 html = `
                     <div class="text-center">
-                        <div class="w-16 h-16 bg-blue-500/20 text-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <div class="w-16 h-16 bg-green-500/20 text-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
-                        <h3 class="text-2xl font-bold text-white mb-2">Auditoria Concluída</h3>
-                        <p class="text-slate-400 mb-8">Pelo volume atual do seu portfólio, uma arquitetura jurídica complexa de honorários altos não é o melhor investimento agora. Recomendamos nosso manual jurídico de autoproteção.</p>
-                        <a href="#" class="block w-full bg-slate-700 hover:bg-slate-600 text-white font-bold py-4 rounded-lg text-lg transition-colors">
-                            Acessar Guia de Autoproteção (R$ 97)
-                        </a>
+                        <h3 class="text-2xl font-bold text-white mb-2">Risco Digital Controlado</h3>
+                        <p class="text-slate-400 mb-8">Pelo cenário atual reportado, uma arquitetura sucessória complexa ainda não é o melhor investimento de recursos para você neste momento.</p>
+                        <button onclick="closeQuiz()" class="block w-full bg-slate-700 hover:bg-slate-600 text-white font-bold py-4 rounded-lg text-lg transition-colors">
+                            Voltar para o Site
+                        </button>
                     </div>
                 `;
             }
